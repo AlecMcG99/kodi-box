@@ -29,7 +29,11 @@ If you want to configure kodi yourself, only follow steps 1-4, if you want to im
 2. Move pscp.exe to C:\Users\<your_username>\AppData\Local\Microsoft\WindowsApps or any of the filepaths that are displayed by running `echo $Env:Path` in powershell
 3. Download the v1.0.0 from the release section of this repository and unzip the .kodi folder. Make sure it's named .kodi
 4. Open Powershell and navigate to the directory where you stored the .kodi directory by running `cd <path_to_directory>` For Example, If my .kodi directory were in my downloads folder, I would run `cd C:\Users\asmcg\Downloads\`
-5. run the command `pscp -r .kodi root@libreelec:/storage`
+5. run `pscp -r .kodi root@libreelec:/storage` If it prompts you for a password, type 'libreelec',
+5a. If you get this error:<img src="images/6.png" height=200 align="top"/> 
+
+     Delete the file C:/Users/<username>/.ssh/known_hosts and rerun `pscp -r .kodi root@libreelec:/storage`
+
 6. Restart your orange pi
 7. When it boots up again go to settings -> System -> Add-ons and change the settings to look like this if they aren't already  <img src="images/3.png" height=300/>
 8. Go to settings -> Interface -> Skin and click the skin option and select Arctic Horizon 2
