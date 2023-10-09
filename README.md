@@ -15,7 +15,7 @@ Files and instructions for setting up a LibreElec Kodi streaming box with the Ar
 
 ## Orange Pi setup
 If you want to configure kodi yourself, only follow steps 1-4, if you want to import a configuration that I built, follow all these steps
-1. Assemble orange pi
+1. Assemble orange pi (The heatsink goes on the chip labeled H6)
 2. Insert SD card into other computer and follow the instructions to create a bootable SD card here https://libreelec.tv/downloads/
 3. Remove SD card and insert it into the orange pi and turn it on
 4. Follow the set up steps in Libreelec wizard, make sure to enable ssh and keep the default username and password, these should be root and libreelec
@@ -27,7 +27,7 @@ If you want to configure kodi yourself, only follow steps 1-4, if you want to im
 ## Configuring Kodi
 1. On your other computer, download the 64-bit x86 version of pscp here, look under Alternative binary files to find it: https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 2. Move pscp.exe to C:\Users\<your_username>\AppData\Local\Microsoft\WindowsApps or any of the filepaths that are displayed by running `echo $Env:Path` in powershell
-3. Download the .kodi config directory
+3. Download the v1.0.0 from the release section of this repository and unzip the .kodi folder. Make sure it's named .kodi
 4. Open Powershell and navigate to the directory where you stored the .kodi directory by running `cd <path_to_directory>` For Example, If my .kodi directory were in my downloads folder, I would run `cd C:\Users\asmcg\Downloads\`
 5. run the command `pscp -r .kodi root@libreelec:/storage`
 6. Restart your orange pi
@@ -48,5 +48,6 @@ Here is a breakdown of the add-ons in this setup:
 - Umbrella: Connects to Debrid services
 - Cocoscrapers: Umbrella uses this to find torrents
 - Mad Titan Sports: Finds live sports
+- tinc: VPN
 
 
