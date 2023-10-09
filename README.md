@@ -31,12 +31,12 @@ If you want to configure kodi yourself, only follow steps 1-4, if you want to im
 4. Open Powershell and navigate to the directory where you stored the .kodi directory by running `cd <path_to_directory>` For Example, If my .kodi directory were in my downloads folder, I would run `cd C:\Users\asmcg\Downloads\`
 5. run the command `pscp -r .kodi root@libreelec:/storage`
 6. Restart your orange pi
-7. When it boots up again go to settings -> System -> Add-ons and change the settings to look like this if they aren't already ![image](https://github.com/AlecMcG99/kodi-streaming-box/assets/53317718/b43dba91-6e31-4592-aefd-47e365173c29)
+7. When it boots up again go to settings -> System -> Add-ons and change the settings to look like this if they aren't already  <img src="images/3.png" height=300/>
 8. Go to settings -> Interface -> Skin and click the skin option and select Arctic Horizon 2
-    ![image](https://github.com/AlecMcG99/kodi-streaming-box/assets/53317718/3dea19f1-09a9-4457-bbb9-3bfa267b4ee3)
-    ![image](https://github.com/AlecMcG99/kodi-streaming-box/assets/53317718/bf458278-912f-41c2-82b0-4ed8bfa85dca)
-9. Go to the menu in the top right and select Add-ons ![image](https://github.com/AlecMcG99/kodi-streaming-box/assets/53317718/1ab06c16-7a04-4e79-92a2-af27c2db29c7)
-10. Go to running Add-ons, click umbrella and access the menu by clicking left on a d-pad or arrow keys. Make sure it is enabled and then go to manage -> settings
+     <img src="images/1.png" height=300/>
+     <img src="images/2.png" height=300/>
+9. Go to the menu in the top right and select Add-ons  <img src="images/4.png" height=300 align="top"/>
+10. Go to running Add-ons, click umbrella and access the menu by clicking left on a d-pad or arrow keys. Make sure it is enabled and then go to manage -> settings  <img src="images/5.png" height=300 align="top"/>
 12. Scroll down until you find Trakt, click Authorization then follow the instructions on your other computer
 13. Scroll to Accounts(Debrid), under Real-Debrid click Authorization and follow the instructions on your other computer
 14. Go back to the Add-ons menu, into the Trakt addon settings, and authorize Trakt again there
