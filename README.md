@@ -48,5 +48,6 @@ Here is a breakdown of the add-ons in this setup:
 - Umbrella: Connects to Debrid services
 - Cocoscrapers: Umbrella uses this to find torrents
 - Mad Titan Sports: Finds live sports
+- tinc: VPN
 
 
