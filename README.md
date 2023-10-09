@@ -15,7 +15,7 @@ Files and instructions for setting up a LibreElec Kodi streaming box with the Ar
 
 ## Orange Pi setup
 If you want to configure kodi yourself, only follow steps 1-4, if you want to import a configuration that I built, follow all these steps
-1. Assemble orange pi
+1. Assemble orange pi (The heatsink goes on the chip labeled H6)
 2. Insert SD card into other computer and follow the instructions to create a bootable SD card here https://libreelec.tv/downloads/
 3. Remove SD card and insert it into the orange pi and turn it on
 4. Follow the set up steps in Libreelec wizard, make sure to enable ssh and keep the default username and password, these should be root and libreelec
