@@ -36,7 +36,7 @@ If you want to configure kodi yourself, only follow steps 1-4, if you want to im
      <img src="images/1.png" height=300/>
      <img src="images/2.png" height=300/>
 9. Go to the menu in the top right and select Add-ons  <img src="images/4.png" height=300 align="top"/>
-10. Go to running Add-ons, click umbrella and access the menu by clicking left on a d-pad or arrow keys. Make sure it is enabled and then go to manage -> settings  <img src="images/5.png" height=300/>
+10. Go to running Add-ons, click umbrella and access the menu by clicking left on a d-pad or arrow keys. Make sure it is enabled and then go to manage -> settings  <img src="images/5.png" height=300 align="top"/>
 12. Scroll down until you find Trakt, click Authorization then follow the instructions on your other computer
 13. Scroll to Accounts(Debrid), under Real-Debrid click Authorization and follow the instructions on your other computer
 14. Go back to the Add-ons menu, into the Trakt addon settings, and authorize Trakt again there
